@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Food Delivery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>🍔 Food Delivery</h1>
+</header>
+
+<section class="food-container">
+
+<!-- Pizza -->
+<div class="food-card">
+<img src="https://via.placeholder.com/200">
+<h3>Pizza</h3>
+<p>₹199</p>
+<button onclick="addToCart('Pizza')">Add to Cart</button>
+</div>
+
+<!-- Burger -->
+<div class="food-card">
+<img src="https://via.placeholder.com/200">
+<h3>Burger</h3>
+<p>₹99</p>
+<button onclick="addToCart('Burger')">Add to Cart</button>
+</div>
+
+<!-- Pasta -->
+<div class="food-card">
+<img src="https://via.placeholder.com/200">
+<h3>Pasta</h3>
+<p>₹149</p>
+<button onclick="addToCart('Pasta')">Add to Cart</button>
+</div>
+
+<!-- Sandwich -->
+<div class="food-card">
+<img src="https://via.placeholder.com/200">
+<h3>Sandwich</h3>
+<p>₹89</p>
+<button onclick="addToCart('Sandwich')">Add to Cart</button>
+</div>
+
+<!-- Cold Drink -->
+<div class="food-card">
+<img src="https://via.placeholder.com/200">
+<h3>Cold Drink</h3>
+<p>₹49</p>
+<button onclick="addToCart('Cold Drink')">Add to Cart</button>
+</div>
+
+<!-- French Fries -->
+<div class="food-card">
+<img src="https://via.placeholder.com/200">
+<h3>French Fries</h3>
+<p>₹79</p>
+<button onclick="addToCart('French Fries')">Add to Cart</button>
+</div>
+
+<!-- Momos -->
+<div class="food-card">
+<img src="https://via.placeholder.com/200">
+<h3>Momos</h3>
+<p>₹109</p>
+<button onclick="addToCart('Momos')">Add to Cart</button>
+</div>
+
+</section>
+
+<section class="cart">
+<h2>🛒 Cart</h2>
+<ul id="cartItems"></ul>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
